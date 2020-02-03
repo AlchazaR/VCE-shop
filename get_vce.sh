@@ -39,7 +39,7 @@ do
 done
 
 find . -type f -mtime -1 -name "*.vce" > $TEMP_DIR/new_files.txt
-mail -s "NEW .vce files" vlad.zmtr@gmail.com < $TEMP_DIR/new_files.txt
+mail -s "NEW .vce files" ********@gmail.com < $TEMP_DIR/new_files.txt
 
 find . -type f -mtime -7 -name "*.vce" -exec cp {} /var/www/html/vce-exams.eu/files5874v/vce \;
 
