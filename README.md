@@ -1,6 +1,6 @@
 # VCE-shop (small pet project)
 
-##Online shop running on OpenCart engine.
+## Online shop running on OpenCart engine.
 Bash script downloads *.vce files from online and saves them locally.
 PHP updates/inserts data in OpenCart database.
 
